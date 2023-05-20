@@ -1,6 +1,7 @@
 [
-    {      "imageUrl": "https://i.ibb.co/LvKHWRt/wepik-export-20230518150929-DNHX.png",
-      "title": "Teddy Bear",
+    {
+      "imageUrl": "https://i.ibb.co/LvKHWRt/wepik-export-20230518150929-DNHX.png",
+      "title": "Cute Teddy Bear",
       "price": 19.99,
       "ratings": 4.5,
       "description": "Soft and cuddly teddy bear toy",
@@ -9,8 +10,10 @@
       "quantity": 10,
       "sellerEmail": "toyseller@example.com"
     },
-    {      "imageUrl": "https://i.ibb.co/ZXS3wXZ/wepik-export-20230518151358bp-LF.png",
-      "title": "Horse Toy",
+    
+    { 
+      "imageUrl": "https://i.ibb.co/ZXS3wXZ/wepik-export-20230518151358bp-LF.png",
+      "title": "Galloping Horse Toy",
       "price": 29.99,
       "ratings": 4.2,
       "description": "Sturdy and realistic horse toy",
@@ -19,8 +22,10 @@
       "quantity": 5,
       "sellerEmail": "petseller@example.com"
     },
-    {      "imageUrl": "https://i.ibb.co/QXjpn15/wepik-export-20230518151844k-XHf.png",
-      "title": "Dinosaur Toy",
+
+    { 
+      "imageUrl": "https://i.ibb.co/QXjpn15/wepik-export-20230518151844k-XHf.png",
+      "title": "Roaring Dinosaur Toy",
       "price": 24.99,
       "ratings": 4.0,
       "description": "Roaring and interactive dinosaur toy",
@@ -29,8 +34,22 @@
       "quantity": 8,
       "sellerEmail": "dinoseller@example.com"
     },
-    {      "imageUrl": "https://example.com/toy4.jpg",
-      "title": "Dogs Toy",
+
+    { 
+      "imageUrl": "https://i.ibb.co/QXjpn15/wepik-export-20230518151844k-XHf.png",
+      "title": "Roaring Kangaro Toy",
+      "price": 24.99,
+      "ratings": 4.0,
+      "description": "Roaring and interactive kangaro toy",
+      "sellerName": "Dino World",
+      "category": "Prehistoric Toys",
+      "quantity": 8,
+      "sellerEmail": "dinoseller@example.com"
+    },
+
+    { 
+      "imageUrl": "https://i.ibb.co/NKfyC0D/wepik-export-20230520081337-An52.png",
+      "title": "Playful Dogs Set Toy",
       "price": 16.99,
       "ratings": 4.8,
       "description": "Set of cute and playful dog toys",
@@ -39,8 +58,10 @@
       "quantity": 12,
       "sellerEmail": "petseller@example.com"
     },
-    {      "imageUrl": "https://i.ibb.co/gj537hZ/wepik-export-20230519053026-L6-PN.png",
-      "title": "Cat Toy",
+
+    {
+      "imageUrl": "https://i.ibb.co/gj537hZ/wepik-export-20230519053026-L6-PN.png",
+      "title": "Sleepy Cat Plushie Toy",
       "price": 14.99,                                                   
       "ratings": 4.3,
       "description": "Adorable and lifelike cat toy",
@@ -49,8 +70,10 @@
       "quantity": 15,
       "sellerEmail": "petseller@example.com"
     },
-    {      "imageUrl": "https://i.ibb.co/7x3J3QY/view-magical-mythical-unicorn-creature.jpg?fbclid=IwAR0aC-NW8E5zzitopNxS8QuMaz5sM8c_hq3FukzfM-VMrAbxICrzQNDyoig",
-      "title": "Unicorn",
+
+    { 
+      "imageUrl": "https://i.ibb.co/7x3J3QY/view-magical-mythical-unicorn-creature.jpg?fbclid=IwAR0aC-NW8E5zzitopNxS8QuMaz5sM8c_hq3FukzfM-VMrAbxICrzQNDyoig",
+      "title": "Magical Unicorn",
       "price": 34.99,
       "ratings": 4.6,
       "description": "Magical and enchanting unicorn toy",
@@ -59,7 +82,9 @@
       "quantity": 3,
       "sellerEmail": "fantasyseller@example.com"
     },
-    {      "imageUrl": "https://i.ibb.co/hdZVX8r/wepik-export-20230519061923-XEly.png",
+
+    { 
+      "imageUrl": "https://i.ibb.co/hdZVX8r/wepik-export-20230519061923-XEly.png",
       "title": "Cows",
       "price": 18.99,
       "ratings": 4.1,
@@ -69,9 +94,10 @@
       "quantity": 20,
       "sellerEmail": "farmseller@example.com"
     },
+
     {
      "imageUrl":"https://i.ibb.co/4NHmyxs/36190287-8388224.jpg",
-      "title": "Penguin",
+      "title": "Dancing Penguins",
       "price": 12.99,
       "ratings": 4.4,
       "description": "Cute and waddling penguin toy",
@@ -80,20 +106,22 @@
       "quantity": 7,
       "sellerEmail": "penguinseller@example.com"
     },
+
     {
-     "imageUrl": "https://example.com/toy9.jpg",
+     "imageUrl": "https://i.ibb.co/gJrMRQn/wepik-export-20230520082959m2-At.png",
       "title": "Elephant Toys",
       "price": 21.99,
       "ratings": 4.2,
       "description": "Gentle and majestic elephant toy",
       "sellerName": "Wild Wonders",
-      "category": "Animal Toys",
+      "category": "Plush Toy",
       "quantity": 9,
       "sellerEmail": "wildseller@example.com"
     },
+
     {
-      "imageUrl": "https://example.com/toy10.jpg",
-      "title": "Giraffe",
+      "imageUrl": "https://i.ibb.co/X87wjWz/wepik-export-20230520083138x-Ftb.png",
+      "title": "Giraffe- The Tall Safari Stunner",
       "price": 26.99,
       "ratings": 4.7,
       "description": "Tall and graceful giraffe toy",
@@ -102,20 +130,22 @@
       "quantity": 6,
       "sellerEmail": "safariseller@example.com"
     },
+
     {
-      "imageUrl": "https://example.com/toy11.jpg",
-      "title": "Lion",
+      "imageUrl": "https://i.ibb.co/b5zzN58/wepik-export-20230520083410-L5ti.png",
+      "title": "The Lion - King of Forest Toy",
       "price": 23.99,
       "ratings": 4.3,
       "description": "King of the jungle lion toy",
       "sellerName": "Wild Wonders",
-      "category": "Animal Toys",
+      "category": "Plush Toy",
       "quantity": 4,
       "sellerEmail": "wildseller@example.com"
     },
+
     {
-      "imageUrl": "https://example.com/toy12.jpg",
-      "title": "Turtle",
+      "imageUrl": "https://i.ibb.co/f2P5ggB/wepik-export-20230520083655-Ye-PP.png",
+      "title": "Turtle - Slow and Steady Toy",
       "price": 9.99,
       "ratings": 4.0,
       "description": "Slow and friendly turtle toy",
@@ -124,9 +154,10 @@
       "quantity": 10,
       "sellerEmail": "oceanseller@example.com"
     },
+
     {
-      "imageUrl": "https://example.com/toy13.jpg",
-      "title": "Rabbit",
+      "imageUrl": "https://i.ibb.co/JxxhVXP/wepik-export-20230520083750-XPqq.png",
+      "title": "The Hopping Bunny Buddy - Rabbit Toy",
       "price": 13.99,
       "ratings": 4.5,
       "description": "Cute and hopping rabbit toy",
@@ -135,9 +166,10 @@
       "quantity": 8,
       "sellerEmail": "petseller@example.com"
     },
+
     {
-      "imageUrl": "https://example.com/toy14.jpg",
-      "title": "Panda",
+      "imageUrl": "https://i.ibb.co/L5j33Pt/wepik-export-20230520084100m2rc.png",
+      "title": "The Playful Panda Pal -Panda Toy",
       "price": 17.99,
       "ratings": 4.4,
       "description": "Adorable and bamboo-munching panda toy",
@@ -146,9 +178,10 @@
       "quantity": 5,
       "sellerEmail": "wildseller@example.com"
     },
+
     {
-      "imageUrl": "https://example.com/toy15.jpg",
-      "title": "Tiger",
+      "imageUrl": "https://i.ibb.co/sjqLXQS/wepik-export-20230520084452abw-W.png",
+      "title": "Tiger Toy -Roaring Jungle King",
       "price": 22.99,
       "ratings": 4.6,
       "description": "Fierce and striped tiger toy",
