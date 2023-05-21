@@ -2,7 +2,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT ||5000;
+const port = process.env.PORT || 1500;
 require('dotenv').config()
 
 app.use(cors());
@@ -44,10 +44,35 @@ async function run() {
 
     })
 
-    app.post('/toyproduct',async (req, res)=>{
-      const toyProduct = req.body
-      const result = await toyProductCollection.insertOne(toyProduct)
-      res.send(result)
+  app.get('/toyProduct', async (req, res) => {
+    console.log(req.query.email);
+    const result = await toyProductCollection.find(query).toArray();
+    res.send(result);
+    // console.log(result)
+})
+
+
+app.get("/myToys", async (req, res) => {
+  let query = {};
+  if (req.query?.email) {
+    query = { seller_email: req.query.email };
+  }
+
+  console.log(req.query.sort);
+  let sortOrder;
+  if (req.query?.sort === "highest") {
+    sortOrder = -1;
+  } else if (req.query?.sort === "lowest") {
+    sortOrder = 1;
+  }
+
+  app.delete('/toyproduct/:id', async (req, res) => {
+    const id = req.params.id;
+    const query = { _id: new ObjectId(id) }
+    const result = await toyProductCollection.deleteOne(query);
+    res.send(result);
+})
+
 
     })
     // Send a ping to confirm a successful connection
